@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
-import { Store, Users, Package, ShoppingBag, TrendingUp, ShieldCheck, Trash2, MessageSquare, Mail, Phone, Check, Archive } from "lucide-react";
+import { Store, Users, Package, ShoppingBag, TrendingUp, ShieldCheck, Trash2, Mail, Phone, Check, Archive } from "lucide-react";
 import api from "../lib/api";
 import { Button } from "../components/ui/button";
 

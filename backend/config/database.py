@@ -60,7 +60,7 @@ async def init_db():
         await categories.create_index("name", unique=True)
         
         # Wishlist indexes
-        await wishlist.create_index([("user_id", "product_id")], unique=True)
+        await wishlist.create_index([("user_id", 1), ("product_id", 1)], unique=True)
         
         # Cart indexes
         await cart.create_index("user_id")
