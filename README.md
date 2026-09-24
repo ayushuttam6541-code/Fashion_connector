@@ -2,6 +2,8 @@
 
 A production-ready location-based multi-vendor marketplace that connects customers with nearby clothing shops in Patna, Bihar. The platform allows local shopkeepers to register their shops, manage products and inventory, and receive customer orders based on GPS location.
 
+## Live Url: https://fashion-connector.vercel.app/
+
 ## 🌟 Core Features
 
 ### For Customers
